@@ -77,21 +77,22 @@ echo "127.0.0.1 ticket.test" >> /etc/hosts
 4. Email: rd@example.com, Password: rdrdrd123。身分是 rd
 
 請於登入畫面中輸入 email 與 password  
-![login](resources/images/ticket1.png)
-登入後會導向首頁
+![login](./resources/images/ticket1.png)  
+
+登入後會導向首頁  
 ![index](resources/images/ticket2.png)
 
 ## 進入 ticket tracking system
 於首頁上方導覽列，點擊"Ticket"，即可進入 ticket tracking system  
 於系統首頁可看到所有的 tickets，以下為範例資料：  
-![ticket3.png](ticket3.png)
+![ticket3.png](resources/images/ticket3.png)
 
 ## 新建一筆
 於 ticket tracking system 首頁，點擊"新建一筆"按鈕即可進入資料表單頁面  
 只有`QA`才能夠新增`type`是`BUG`與`TEST_CASE`的 ticket  
 只有`PM`才能夠新增`type`是`FEATURE_REQUEAT`的 ticket
 
-![ticket4.png](ticket4.png)
+![ticket4.png](resources/images/ticket4.png)  
 新增完成後將返回 ticket tracking system 首頁  
 且 tickets 清單將多出新的一筆資料
 
@@ -101,7 +102,7 @@ echo "127.0.0.1 ticket.test" >> /etc/hosts
 只有`QA`才能夠在編輯`type`是`BUG`與`TEST_CASE`的 ticket 時按下送出  
 只有`PM`才能夠在編輯`FEATURE_REQUEAT`的 ticket 時按下送出  
 
-![ticket5.png](ticket5.png)
+![ticket5.png](resources/images/ticket5.png)  
 編輯完成後將返回 ticket tracking system 首頁  
 且 tickets 清單將呈現編輯完成的資料
 
@@ -110,7 +111,7 @@ echo "127.0.0.1 ticket.test" >> /etc/hosts
 登入的角色為`QA`時，`type`是`TEST_CASE`的 ticket 後方會出現結案按鈕  
 登入的角色為`RD`時，`type`是`BUG`與`FEATURE_REQUEAT`的 ticket 後方會出現結案按鈕  
 
-![ticket6.png](ticket6.png)
+![ticket6.png](resources/images/ticket6.png)  
 按下結案後將返回 ticket tracking system 首頁  
 且 tickets 清單將呈現已結案的資料
 
